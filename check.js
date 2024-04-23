@@ -1,6 +1,6 @@
 const ethers = require('ethers');
 
-// Connect to the Ethereum mainnet
+// Connect to the Ethereum mainnet precisely
 const provider = new ethers.providers.JsonRpcProvider('https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID');
 
 async function getEthAddress(ensName) {
